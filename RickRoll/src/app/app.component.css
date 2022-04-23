@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1d29 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.RickRollVideo {
+    margin: 25px;
+    width: 654px;
+    height: 480px;
+}
+
+button {
+    padding: 5px 25px;
+}
+
+@media only screen and (max-width: 840px) {
+    .RickRollVideo {
+        width: 327px;
+        height: 240px;
+        transition: all 250ms ease-in-out;
+    }
+}
